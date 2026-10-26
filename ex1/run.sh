@@ -7,7 +7,7 @@
 #SBATCH --output=job-%j.out
 #SBATCH --error=job-%j.err
 
-# Set up the Python environment (jobs start outside any interactive shell)
+# Set up the Python environment
 module reset
 module load miniconda
 #conda activate workshops
