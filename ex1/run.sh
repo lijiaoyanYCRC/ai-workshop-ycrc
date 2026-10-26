@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=python-demo
+#SBATCH --partition=devel
+#SBATCH --time=00:05:00
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=1G
+#SBATCH --output=job-%j.out
+#SBATCH --error=job-%j.err
+
+echo "Running on: $(hostname)"
+echo "Python path: $(which python)"
+python --version
+
+python analysis.py

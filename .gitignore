@@ -1,0 +1,11 @@
+# Slurm job output
+job-*.out
+job-*.err
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
