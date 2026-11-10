@@ -1,0 +1,5 @@
+{
+  "skillOverrides": {
+    "ycrc-cluster": "user-invocable-only"
+  }
+}
