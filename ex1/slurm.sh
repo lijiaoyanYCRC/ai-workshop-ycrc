@@ -10,7 +10,6 @@
 # Set up the Python environment
 module reset
 module load miniconda
-conda activate workshops
 
 echo "Running on: $(hostname)"
 echo "Python path: $(which python)"
